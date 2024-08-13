@@ -1,0 +1,140 @@
+html, body {
+    margin-top: 5px;
+    padding: 0;
+    font-family: "Source Sans 3",sans-serif;
+}
+
+main{
+    border: 1px solid grey;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+header{
+    width: 379px;
+    height: 65px;
+    margin: 0px auto;
+    padding: 15px;
+    background: #FFF;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-width: 1px 1px 1px 1px;
+    border-style: solid;
+    border-color: gray;
+    border-radius: 5px 0 0 0;
+
+
+}
+
+p{
+    color: black;
+    margin: 0;
+    font-size: 13px;
+}
+
+.logo{
+    width: 125px;
+}
+
+.user-avatar{
+    height: 34px;
+    width: 34px;
+    border-radius: 50%;
+}
+
+#container-main{
+    width: 375px;
+    background: grey;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.post{
+    width: 375px;
+    background: grey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    margin-bottom: 2px;
+}
+
+.post-img{
+    width: 100%;
+}
+
+.post-header{
+    width: 375px;
+    box-sizing: border-box;
+    height: 55px;
+    background: #FFF;
+    display:flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px
+}
+
+.post-header-info{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+.post-author{
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.post-location{
+    font-size: 12px;
+}
+
+.post-info{
+    width: 375px;
+    background: #fff;
+}
+
+.post-buttons{
+    display:flex;
+    gap: 20px;
+    align-items: start;
+    padding: 15px 10px 5px 8px;
+}
+
+.post-likes-title{
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    gap: 5px;
+    padding: 5px 10px 15px 10px;
+}
+
+button{
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+button:hover img{
+    opacity: 75%;
+    cursor: pointer;
+}
+
+a img{
+    width: 22px;
+    height: 22px;
+}
+
+button img{
+    width: 22px;
+    height: 22px;
+    pointer-events: none;
+}
+
+.bold{
+    font-weight: bold;
+}
